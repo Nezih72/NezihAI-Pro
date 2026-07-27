@@ -1,11 +1,37 @@
-# Binance API
+# ==========================
+# NEZİH AI PRO CONFIG
+# ==========================
 
-BINANCE_API_KEY = ""
+APP_NAME = "Nezih AI Pro"
+VERSION = "1.0"
 
-BINANCE_SECRET_KEY = ""
+COINS = {
+    "bitcoin":"BTC",
+    "ethereum":"ETH",
+    "solana":"SOL",
+    "ripple":"XRP",
+    "avalanche-2":"AVAX",
+    "sui":"SUI",
+    "the-open-network":"TON",
+    "dogecoin":"DOGE",
+    "arbitrum":"ARB",
+    "pepe":"PEPE",
+    "ondo-finance":"ONDO",
+    "chainlink":"LINK",
+    "bittensor":"TAO",
+    "zcash":"ZEC",
+    "celestia":"TIA"
+}
 
-# Telegram
+VS_CURRENCY = "try"
 
-TELEGRAM_TOKEN = ""
+REFRESH_TIME = 60
 
-CHAT_ID = ""
+RSI_BUY = 35
+RSI_SELL = 70
+
+EMA_FAST = 20
+EMA_SLOW = 50
+
+TELEGRAM_ENABLED = False
+BINANCE_ENABLED = False
