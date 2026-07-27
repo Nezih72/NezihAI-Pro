@@ -1,0 +1,9 @@
+requests
+pandas
+numpy
+matplotlib
+ta
+ccxt
+python-binance
+schedule
+python-telegram-bot
